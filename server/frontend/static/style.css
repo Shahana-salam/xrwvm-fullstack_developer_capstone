@@ -124,3 +124,70 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+ /* Contact Card */
+    .contact-card {
+      background-color: white;
+      margin: 50px auto;
+      max-width: 900px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      text-align: center;
+    }
+
+    .contact-image {
+      position: relative;
+    }
+
+    .contact-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .watermark {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 100px;
+      font-weight: bold;
+      color: rgba(0, 102, 255, 0.2);
+      text-shadow: 2px 2px 4px #00000022;
+    }
+
+    .contact-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .icon {
+      font-size: 500px;
+      color: #00bcd4;
+    }
+
+    .contact-info {
+      text-align: left;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+    }
+
+    .contact-info p strong {
+      color: #004d99;
+    }
+
+    .contact-info a {
+      color: #004d99;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
